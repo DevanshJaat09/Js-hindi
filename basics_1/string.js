@@ -30,3 +30,19 @@ console.log(url.includes('devansh'))
 console.log(url.includes('divyanshu'));
 console.log(gameName.split('_'));
 
+const firstString = new String('JAAT')
+console.log(`HUM HAIN ${firstString}`) 
+
+console.log(firstString.anchor()); //<a name="undefined">JAAT</a> *unsupported now
+console.log(firstString.at(1)); // A
+console.log(firstString.big()); //<big>JAAT</big>
+console.log(firstString.blink()); //<blink>JAAT</blink> *unsupported now
+console.log(firstString.bold()); //<b>JAAT</b> *unsupported now
+console.log(firstString.charAt(3)); // T, If No index is provided, 0 will be used as default, eturns an empty string if index is out of range
+console.log(firstString.charCodeAt(1)); //65; The charCodeAt() method of String values returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
+
+
+
+
+
+

@@ -7,3 +7,7 @@ accountCity = "Panipat"
 
 //console.log(accountName);
 console.table([accountName,accountId,accountPassword,accountCity])
+
+
+const bigNumber = 2n
+console.log(typeof bigNumber);
