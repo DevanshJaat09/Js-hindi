@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// let tinderUser = new Object()
+// let tinderUser = {}
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -45,7 +45,7 @@ const users = [
     },
 ]
 
-users[1].email
+console.log(users[1].email)
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
