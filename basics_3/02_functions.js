@@ -16,6 +16,7 @@ function newPrice (val1, val2, ...num1) {
 }
 
 console.log(newPrice(200,300,400,500,600));
+// [ 400, 500, 600 ]
 
 const newObject = {
     name : "Devansh",
