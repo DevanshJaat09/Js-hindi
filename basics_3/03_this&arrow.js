@@ -103,3 +103,7 @@ console.log(hello(5,5));
 const objectReturn = () => ({username : "devansh"})
 console.log(objectReturn());
 // { username: 'devansh' } 
+
+//  In normal functions, the this keyword represents the object that called the function. 
+// In arrow functions, the this keyword always represents the object that defined the arrow function. 
+
