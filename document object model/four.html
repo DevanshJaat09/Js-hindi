@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM With Devansh_Jaat09</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage (newLang){
+        const li = document.createElement('li')
+        li.innerHTML = `${newLang}`   
+        document.querySelector('.language').append(li)
+    }
+    addLanguage("Java")
+    addLanguage("Python")
+// optimized way for the same 
+    function optiLang (newLang){
+        const li = document.createElement('li')
+        li.append(document.createTextNode(newLang))
+        document.querySelector('.language').append(li)
+    }
+    optiLang("Golang")
+    optiLang("Ruby")
+
+ //Edit
+ const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+    //secondLang.innerHTML = "Mojo"
+    const newli = document.createElement('li')
+    newli.textContent = "Mojo"
+    secondLang.replaceWith(newli)
+
+// Edit
+const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+     //remove
+     const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
+</script>
+</html>
