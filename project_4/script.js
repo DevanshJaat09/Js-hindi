@@ -60,7 +60,7 @@ function displayGuess(guess) {
   numGuess++;
   remaining.innerHTML = `${11 - numGuess} `;
 }
-
+// the += operator is used to add a value to a variable or property and assign the result to the variable or property
 function displayMessage(message) {
   lowOrHi.innerHTML = `<h2>${message}</h2>`;
 }
